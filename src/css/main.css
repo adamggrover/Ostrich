@@ -1,0 +1,36 @@
+/* tailwind imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content-container{
+    @apply max-w-5xl mx-auto
+}
+
+.section-heading{
+    @apply font-bold text-3xl text-slate-800
+}
+
+/* Help section */
+
+.link-card{
+    @apply bg-white hover:shadow-xl
+}
+
+
+/* News section */
+
+.news-post-card{
+    @apply max-w-60
+}
+
+/* Wp Menus */
+
+.header-right nav ul{
+    @apply flex gap-6
+}
+
+.header-right nav ul.sub-menu{
+    @apply flex flex-col  mt-1 gap-1 
+}
+
